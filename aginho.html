@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+ 
+    <title>hortaliças</title>
+</head>
+<body>
+   
+    <header class="header">
+        <h1>Frutas Cítricas:Bombas de Vitaminas</h1>
+        <div class="pagina1">
+           
+                <img src="laranja.jpeg" id="horta">
+                    <nav>
+                <ul class="lista1">
+                    <li><a href="https://www.benegrip.com.br/saude/vitaminas/beneficios-da-vitamina-c"> Vitamina C</a></li>
+                    <li> <a href="https://www.embrapa.br/busca-de-publicacoes/-/publicacao/341145/como-plantar-citros-laranja-tangerina-limao"> Plantio </a></li>
+                    <li> <a href="https://www.careplus.com.br/careplus-mais/7-frutas-citricas-e-seus-beneficios-para-a-saude"> Consumo</a></li>
+                   
+            </ul>
+        </nav>
+        </div>
+</header>
+
+        <div class="beneficios">
+            <h2>As frutas cítricas, como laranja, limão, tangerina e grapefruit, são verdadeiros tesouros nutricionais que oferecem uma série de benefícios para a saúde. Ricas em vitamina C, essas frutas ajudam a fortalecer o sistema imunológico, combatendo gripes e resfriados, além de promover a saúde da pele, cabelos e unhas.
+            </h2>
+            <p>Aqui estão alguns dos principais benefícios</p>
+            <div class="listas">
+            <ul class="lista1">
+                <li><a href="#" class="link-interativo" onclick="exibirMensagem1(event)">Saúde e Nutrição</a></li>
+                <li> <a href="#" class="link-interativo" onclick="exibirMensagem2(event)">Economia</a></li>
+                <li> <a href="#" class="link-interativo" onclick="exibirMensagem3(event)">Sustentabilidade</a></li>
+                <li> <a href="#" class="link-interativo" onclick="exibirMensagem4(event)">Beneficios Psicológicos e Físicos</a></li>
+                <li> <a href="#" class="link-interativo" onclick="exibirMensagem5(event)">Educação e Conexão Social</a></li>
+                <li> <a href="#" class="link-interativo" onclick="exibirMensagem6(event)">Bem-Estar e Satisfação Pessoal</a></li>
+                <li> <a href="#" class="link-interativo" onclick="exibirMensagem7(event)">Qualidade dos Alimentos</a></li>
+                 </ul>
+                 </div>
+           </div>
+        <div id="mensagem" class="mensagem">
+                     
+            <h3> Saúde e Nutrição</h3>
+            <p>Outro benefício notável é a presença de antioxidantes como flavonoides e carotenoides, que ajudam a proteger as células do corpo contra danos causados pelos radicais livres, prevenindo doenças crônicas e promovendo a saúde cardiovascular.</p>
+    </div>
+    <script>
+        function exibirMensagem1(event) {
+            event.preventDefault(); // Evita o comportamento padrão do link
+            var mensagemDiv = document.getElementById('mensagem');
+            mensagemDiv.style.display = 'block'; // Exibe a mensagem
+        }
+    </script>
+
+
+
+            <div id="mensagem2" class="mensagem2">
+                     
+                <h3> Economia</h3>
+                <p></p>Redução de custos: Produzir seus próprios vegetais pode reduzir significativamente os gastos com alimentos.
+                Autos suficiência: Você pode reduzir a dependência de supermercados e ter acesso a alimentos frescos em caso de interrupções no fornecimento.</p>
+        </div>
+        <script>
+            function exibirMensagem2(event) {
+                event.preventDefault(); // Evita o comportamento padrão do link
+                var mensagemDiv = document.getElementById('mensagem2');
+                mensagemDiv.style.display = 'block'; // Exibe a mensagem
+            }
+        </script>
+   
+   
+<div class="container">
+    <div class="image">
+        <a href="https://www.google.com/""><img src="toranja.jpeg" alt="Imagem 1"></a>
+    </div>
+    <div class="image">
+        <a href="URL_IMAGEM2"><img src="índice.jpeg" alt="Imagem 2"></a>
+    </div>
+    <div class="image">
+        <a href="URL_IMAGEM3"><img src="images.jpeg" alt="Imagem 3"></a>
+    </div>
+</div>
+<footer>
+    <img src="ima.png" alt="vitaminas" class="oo">
+    <p class="copyright">&copy; Hortaliças - 2024</p>
+  </footer>
+</body>
+</html>
+
